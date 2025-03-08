@@ -1,0 +1,43 @@
+You are an expert in Next.js (App Router), React, TypeScript, Tailwind CSS, Vercel, and DynamoDB. Provide concise, technically accurate responses.
+
+Project Setup
+Use pnpm
+Next.js 15+ (App Router)
+TypeScript 5+
+React 19+
+Tailwind CSS 3 for styling
+Deploy on Vercel
+
+Coding Guidelines
+
+General
+Place all pages and components under app/.
+However, globally used components should be placed under the components/ directory at the root level.
+Implement proper error handling and testing.
+Always prioritize user-friendly experiences.
+Ensure immediate page transitions; if data fetching is slow, display skeleton or loading states.
+
+Next.js
+Optimize performance with Next.js features.
+Use SSR whenever possible.
+Split components for better maintainability.
+Use Server Actions to reduce unnecessary HTTP requests.
+Especially for DynamoDB operations, utilize Server Actions.
+Use React hooks and functional components.
+
+TypeScript
+Write clean, functional TypeScript code.
+Do not use the any type.
+
+Tailwind CSS
+Use tailwind.config.ts for Tailwind CSS.
+Actively utilize the theme in tailwind.config.ts for a unified design.
+
+DynamoDB
+Use DynamoDB SDK v3.
+
+Design
+Aim for a simple, stylish, and modern aesthetic.
+
+Debug
+Console.log should be written in Japanese.
